@@ -9,15 +9,15 @@ NumNotation 是一种基于简谱数字音级的纯文本记谱格式，
 
 对比：
 
-- ABC notation ： 用唱名录入为文本文件，再转换为五线谱。
+- ABC notation ： 用音名录入为文本文件，再转换为五线谱。
 
   转换方法：lilypond 自带的 abc2ly （支持 ABC notation v1.6规范）转换为 .ly 文件，再用 lilypond 生成 .pdf 乐谱。
 
-- Num notation ： 用音名（简谱数字）录入为文本文件，再转换为五线谱。
+- Num notation ： 用唱名（简谱数字）录入为文本文件，再转换为五线谱。
   
   转换方法：用 python 程序转换为 .ly 文件，再用 lilypond 生成 .pdf 乐谱。
 
-- 番茄简谱： 用音名（简谱数字）录入为文本文件，再转换为简谱。
+- 番茄简谱： 用唱名（简谱数字）录入为文本文件，再转换为简谱。
 
 # 使用说明
 
